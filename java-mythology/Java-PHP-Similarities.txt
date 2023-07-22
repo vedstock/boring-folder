@@ -1,0 +1,14 @@
+1. Array
+ArrayList<String> cars = new ArrayList<String>();
+    cars.add("Volvo");
+    cars.add("BMW");
+    cars.add("Ford");
+    cars.add("Mazda");
+    cars.remove(1);
+System.out.println(cars);  --> [Volvo, Ford, Mazda]
+
+$cars = array("Volvo", "BMW", "Ford","Mazda");
+unset($cars[1]);
+foreach($cars as $car){    <-- Indexed array📐
+	echo $car."<br>"; -->  Volvo   Ford   Mazda
+}
